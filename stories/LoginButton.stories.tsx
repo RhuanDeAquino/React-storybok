@@ -9,6 +9,6 @@ export default {
     component: LoginButton
 } as ComponentMeta<typeof LoginButton>
 
-const Template: ComponentStory<typeof LoginButton> = () => <LoginButton />;
+const Template: ComponentStory<typeof LoginButton> = (props) => <LoginButton {...props}/>;
 
 export const Primary = Template.bind({});

@@ -13,8 +13,17 @@ const Button = styled.button`
     border-radius: 5px;
 `;
 
-export const LoginButton = () => {
+export interface LoginButton {
+    text?: string,
+    onClick: () => void 
+};
+
+export const LoginButton = ({ text, onClick } : LoginButton) => {
     return(
-        <Button>Clique</Button>
+        <Button
+            onClick={onClick}
+        >
+            {text}
+        </Button>
     );
 };

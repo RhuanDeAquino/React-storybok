@@ -21,7 +21,7 @@ export interface LoginButton {
 export const LoginButton = ({ text, onClick } : LoginButton) => {
     return(
         <Button
-            onClick={onClick}
+            onClick={() => onClick()}
         >
             {text}
         </Button>

@@ -3,7 +3,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Button = styled.button`
-    background-color: #9659FB;
+    background-color: red;
     color: #FFF;
     padding: 15px 125px;
     font-size: 1rem;

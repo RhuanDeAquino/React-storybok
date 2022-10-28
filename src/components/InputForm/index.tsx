@@ -20,10 +20,14 @@ const Input = styled.input`
   border: 0;
   outline: 0;
   font-size: 14px;
+  color: #7640D0;
+  font-weight: 550;
 
-  -webkit-input-placeholder{
-    color:#C4C;
+  ::-webkit-input-placeholder{
+    color: #393335;
+    opacity: 50%;
     font-size: 14px;
+    font-weight: 400;
 }
 `
 
